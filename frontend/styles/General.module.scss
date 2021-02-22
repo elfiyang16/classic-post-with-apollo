@@ -1,0 +1,21 @@
+.header {
+  margin: 20px 32px;
+  border-bottom: 2px solid #5db49a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: #5db49a;
+  margin-right: 12px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

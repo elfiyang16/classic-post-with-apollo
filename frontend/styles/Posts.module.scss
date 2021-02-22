@@ -1,0 +1,96 @@
+.container {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  margin: 0 auto;
+  /* color: #5db49a; */
+  max-width: calc(100vw - 100px);
+  color: #5762cf;
+  text-align: center;
+}
+
+.post_container {
+  border-bottom: dashed 1px #5762cf;
+  margin: 20px;
+}
+
+.post_link {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.form_row {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.form {
+  margin: auto;
+  text-align: center;
+}
+
+.input_area {
+}
+
+.button {
+  color: white;
+  background-color: #5db49a;
+  border: 2px solid #5db49a;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin: 8px 4px;
+}
+
+.like_text {
+  color: #561f4e;
+}
+
+.like_button {
+  color: white;
+  background-color: #561f4e;
+  border: 2px solid #561f4e;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin: 8px 4px;
+  transition: all 0.2s;
+}
+
+.like_button:hover {
+  border: 2px solid #ffffff;
+  transition: linear 0.1s;
+}
+.action_buttons {
+  display: flex;
+  flex-direction: row;
+
+  // justify-content: right;
+  // text-align: right;
+}
+
+.link_button {
+  color: white;
+  background-color: #5762cf;
+  border: 2px solid#5762cf;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin: 12px 10px;
+  width: 48px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.link_button:hover {
+  border: 2px solid #5762cf;
+}
+
+.action_button {
+  color: white;
+  background-color: #561f4e;
+  border: 2px solid #561f4e;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin: 12px 10px;
+  text-align: center;
+  font-size: 12px;
+}
